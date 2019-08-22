@@ -212,18 +212,4 @@ fn main() {
 			);
 		}
 	}
-
-	// let mut pronunciations: Vec<_> = (&map).into_iter()
-	// .map(|((p, _), _)| p)
-	// .map(|p| format!("{} -> {}", p, p.chars().map(katakana_voiced_to_unvoiced).collect::<String>()))
-	// .map(|p| {
-	// let i = p.chars().next().unwrap().len_utf8();
-	// &p[i..]
-	// })
-	// .collect();
-	// pronunciations.sort();
-	// pronunciations.dedup();
-	// for p in pronunciations {
-	// println!("{}", p);
-	// }
 }
