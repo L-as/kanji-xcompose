@@ -196,19 +196,19 @@ fn main() {
 		if len > 1 {
 			for (i, kanji) in kanjis.into_iter().enumerate() {
 				println!(
-					"<UFFE0> {} {} {} {} : \"{}\"",
-					sel1,
-					sel2,
-					sel3,
-					number_to_key(u8::try_from(i).unwrap() + 1),
+					"<UFFE0> <U{:04X}> <U{:04X}> <U{:04X}> <U{:04X}> : \"{}\"",
+					sel1 as u32,
+					sel2 as u32,
+					sel3 as u32,
+					number_to_key(u8::try_from(i).unwrap() + 1) as u32,
 					kanji.codepoint
 				);
 			}
 		} else {
 			let kanji = &kanjis[0];
 			println!(
-				"<UFFE0> {} {} {} : \"{}\"",
-				sel1, sel2, sel3, kanji.codepoint
+				"<UFFE0> <U{:04X}> <U{:04X}> <U{:04X}> : \"{}\"",
+				sel1 as u32, sel2 as u32, sel3 as u32, kanji.codepoint
 			);
 		}
 	}
