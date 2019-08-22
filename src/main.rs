@@ -135,7 +135,7 @@ fn main() {
 		let mut freq = 2501u16;
 		for n in kanji.children() {
 			match n.tag_name().name() {
-				"reading_meaning" => {
+				"reading_meaning" if pronunciation.is_none() => {
 					pronunciation = n
 						.children()
 						.find(|n| n.has_tag_name("rmgroup"))
@@ -152,7 +152,7 @@ fn main() {
 				"misc" => {
 					for n in n.children() {
 						match n.tag_name().name() {
-							"stroke_count" => {
+							"stroke_count" if stroke_count.is_none() => {
 								stroke_count = n.text().and_then(|s| s.parse().ok());
 							},
 							"freq" => {
