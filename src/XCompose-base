@@ -1,0 +1,89 @@
+# Japanese small letters
+<Multi_key> <U3042> : "ぁ"
+<Multi_key> <U30A2> : "ァ"
+<Multi_key> <U3044> : "ぃ"
+<Multi_key> <U30A4> : "ィ"
+<Multi_key> <U3046> : "ぅ"
+<Multi_key> <U30A6> : "ゥ"
+<Multi_key> <U3048> : "ぇ"
+<Multi_key> <U30A8> : "ェ"
+<Multi_key> <U304A> : "ぉ"
+<Multi_key> <U30AA> : "ォ"
+
+<Multi_key> <U3064> : "っ"
+<Multi_key> <U30A4> : "ッ"
+
+<Multi_key> <U3084> : "ゃ"
+<Multi_key> <U30E4> : "ャ"
+<Multi_key> <U3086> : "ゅ"
+<Multi_key> <U30E6> : "ュ"
+<Multi_key> <U3088> : "ょ"
+<Multi_key> <U30E8> : "ョ"
+
+# Japanese miscellanea
+<U309B> <U309B> : "゙"
+<U309C> <U309C> : "゚"
+
+# Japanese hiragana dakuten
+<U309B> <U304B> : "が"
+<U309B> <U304D> : "ぎ"
+<U309B> <U304F> : "ぐ"
+<U309B> <U3051> : "げ"
+<U309B> <U3053> : "ご"
+
+<U309B> <U306F> : "ば"
+<U309B> <U3072> : "び"
+<U309B> <U3075> : "ぶ"
+<U309B> <U3078> : "べ"
+<U309B> <U307B> : "ぼ"
+
+<U309C> <U306F> : "ぱ"
+<U309C> <U3072> : "ぴ"
+<U309C> <U3075> : "ぷ"
+<U309C> <U3078> : "ぺ"
+<U309C> <U307B> : "ぽ"
+
+<U309B> <U3055> : "ざ"
+<U309B> <U3057> : "じ"
+<U309B> <U3059> : "ず"
+<U309B> <U305B> : "ぜ"
+<U309B> <U305D> : "ぞ"
+
+<U309B> <U305F> : "だ"
+<U309B> <U3061> : "ぢ"
+<U309B> <U3064> : "づ"
+<U309B> <U3066> : "で"
+<U309B> <U3068> : "ど"
+
+# Japanese katakana dakuten
+<U309B> <U30AB> : "ガ"
+<U309B> <U30AD> : "ギ"
+<U309B> <U30AF> : "グ"
+<U309B> <U30B1> : "ゲ"
+<U309B> <U30B3> : "ゴ"
+
+<U309B> <U30CF> : "バ"
+<U309B> <U30D2> : "ビ"
+<U309B> <U30D5> : "ブ"
+<U309B> <U30D8> : "ベ"
+<U309B> <U30DB> : "ボ"
+
+<U309C> <U30CF> : "パ"
+<U309C> <U30D2> : "ピ"
+<U309C> <U30D5> : "プ"
+<U309C> <U30D8> : "ペ"
+<U309C> <U30DB> : "ポ"
+
+<U309B> <U30B5> : "ザ"
+<U309B> <U30B7> : "ジ"
+<U309B> <U30B9> : "ズ"
+<U309B> <U30BB> : "ゼ"
+<U309B> <U30BD> : "ゾ"
+
+<U309B> <U30BF> : "ダ"
+<U309B> <U30C1> : "ヂ"
+<U309B> <U30C4> : "ヅ"
+<U309B> <U30C6> : "デ"
+<U309B> <U30C8> : "ド"
+
+# Japanese kanji

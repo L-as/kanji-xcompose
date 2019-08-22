@@ -1,0 +1,72 @@
+default partial
+xkb_symbols "basic" {
+    name[Group1] = "kanji-xcompose";
+
+    key <TLDE> {[U3090, U30F0, U3091, U30F1]}; # wi we
+	key <AE01> {[U3042, U30A2]}; # a
+    key <AE02> {[U3044, U30A4]}; # i
+    key <AE03> {[U3046, U30A6]}; # u
+    key <AE04> {[U3048, U30A8]}; # e
+	key <AE05> {[U304A, U30AA]}; # o
+	key <AE06> {[U306A, U30CA]}; # na
+	key <AE07> {[U306B, U30CB]};
+	key <AE08> {[U306C, U30CC]};
+	key <AE09> {[U306D, U30CD]};
+	key <AE10> {[U306E, U30CE]};
+	key <AE11> {[U3084, U30E4]}; # ya
+	key <AE12> {[U308F, U30EF]}; # wa
+
+	key <AD01> {[U304B, U30AB, UFF51]}; # ka
+	key <AD02> {[U304D, U30AD, UFF57]};
+	key <AD03> {[U304F, U30AF, UFF45]};
+	key <AD04> {[U3051, U30B1, UFF52]};
+	key <AD05> {[U3053, U30B3, UFF54]};
+	key <AD06> {[U306F, U30CF, UFF59]}; # ha
+	key <AD07> {[U3072, U30D2, UFF55]};
+	key <AD08> {[U3075, U30D5, UFF49]};
+	key <AD09> {[U3078, U30D8, UFF4F]};
+	key <AD10> {[U307B, U30DB, UFF50]};
+	key <AD11> {[U3086, U30E6]}; # yu
+	key <AD12> {[U3092, U30F2]}; # wo
+
+	key <AC01> {[U3055, U30B5, UFF41]}; # sa
+	key <AC02> {[U3057, U30B7, UFF53]};
+	key <AC03> {[U3059, U30B9, UFF44]};
+	key <AC04> {[U305B, U30BB, UFF46]};
+	key <AC05> {[U305D, U30BD, UFF47]};
+	key <AC06> {[U307E, U30DE, UFF48]}; # ma
+	key <AC07> {[U307F, U30DF, UFF4A]};
+	key <AC08> {[U3080, U30E0, UFF4B]};
+	key <AC09> {[U3081, U30E1, UFF4C]};
+	key <AC10> {[U3082, U30E2, UF0031]};
+    key <AC11> {[U3088, U30E8]}; # yo
+    key <BKSL> {[U3093, U30F3, U301C, U30FC]}; # ~ -
+
+    key <LSGT> {[U305F, U30BF]}; # ta
+	key <AB01> {[U3061, U30C1, UFF5A]};
+	key <AB02> {[U3064, U30C4, UFF58]};
+	key <AB03> {[U3066, U30C6, UFF43]};
+	key <AB04> {[U3068, U30C8, UFF56]};
+	key <AB05> {[U3089, U30E9, UFF42]}; # ra
+	key <AB06> {[U308A, U30EA, UFF4E]};
+	key <AB07> {[U308B, U30EB, UFF4D]};
+	key <AB08> {[U308C, U30EC, U3001]}; # ,
+	key <AB09> {[U308D, U30ED, U3002, U2026]}; # 。…
+	key <AB10> {[U309B, U309C, UFF1F, UFF01]}; # ゙゚
+
+	key <SPCE> {[U3000]};
+
+	replace key <LVL3> {
+		type[Group1] = "ONE_LEVEL",
+		symbols[Group1] = [ ISO_Level3_Shift]
+	};
+
+	key <RALT> {
+		type[Group1] = "TWO_LEVEL",
+		symbols[Group1] = [ ISO_Level3_Shift, Multi_key]
+	};
+
+	key <CAPS> {[UFFE0]};
+
+	modifier_map Mod5 { <LVL3> };
+};

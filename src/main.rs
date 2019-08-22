@@ -2,7 +2,7 @@
 use std::{
 	collections::HashMap,
 	convert::{TryFrom, TryInto},
-	io::{self, Read},
+	io::{self, Read, Write},
 };
 
 #[derive(Debug)]
@@ -107,6 +107,8 @@ fn ending_to_key(ending: &str, voiced: bool) -> char {
 	}
 }
 
+const XCOMPOSE_BASE: &'static str = include_str!("XCompose-base");
+
 fn main() {
 	let mut buffer = String::new();
 	io::stdin()
@@ -181,6 +183,7 @@ fn main() {
 		}
 	}
 
+	io::stdout().write_all(XCOMPOSE_BASE.as_bytes()).unwrap();
 	for ((pronunciation, stroke_count), kanjis) in map {
 		let beginning = pronunciation.chars().next().unwrap();
 		let ending = &pronunciation[beginning.len_utf8()..];
