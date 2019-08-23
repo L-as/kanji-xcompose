@@ -124,13 +124,13 @@ fn main() {
 				.find(|n| n.has_tag_name("misc"))
 				.map_or(false, |n| {
 					n.children()
-						.any(|n| n.has_tag_name("freq") || n.has_tag_name("jlpt"))
+						.any(|n| n.has_tag_name("freq") || n.has_tag_name("jlpt") || n.has_tag_name("grade"))
 				})
 	});
 
 	let mut map = HashMap::<(&str, u8), Vec<Kanji>>::new();
 
-	for kanji in kanjis {
+	'kanji: for kanji in kanjis {
 		let mut pronunciation: Option<&str> = None;
 		let mut codepoint: Option<char> = None;
 		let mut stroke_count: Option<u8> = None;
@@ -162,6 +162,11 @@ fn main() {
 									freq = n;
 								}
 							},
+							"grade" => {
+								if let Some(grade) = n.text().and_then(|s| s.parse::<u8>().ok()) {
+									if grade > 8 {continue 'kanji}
+								}
+							}
 							_ => {},
 						}
 					}
