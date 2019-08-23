@@ -1,12 +1,12 @@
 default partial
 xkb_symbols "basic" {
-    name[Group1] = "kanji-xcompose";
+	name[Group1] = "kanji-xcompose";
 
-    key <TLDE> {[U3090, U30F0, U3091, U30F1]}; # wi we
+	key <TLDE> {[U3090, U30F0, U3091, U30F1]}; # wi we
 	key <AE01> {[U3042, U30A2]}; # a
-    key <AE02> {[U3044, U30A4]}; # i
-    key <AE03> {[U3046, U30A6]}; # u
-    key <AE04> {[U3048, U30A8]}; # e
+	key <AE02> {[U3044, U30A4]}; # i
+	key <AE03> {[U3046, U30A6]}; # u
+	key <AE04> {[U3048, U30A8]}; # e
 	key <AE05> {[U304A, U30AA]}; # o
 	key <AE06> {[U306A, U30CA]}; # na
 	key <AE07> {[U306B, U30CB]};
@@ -39,10 +39,10 @@ xkb_symbols "basic" {
 	key <AC08> {[U3080, U30E0, UFF4B, UFF2B]};
 	key <AC09> {[U3081, U30E1, UFF4C, UFF2C]};
 	key <AC10> {[U3082, U30E2, UF0031]};
-    key <AC11> {[U3088, U30E8]}; # yo
-    key <BKSL> {[U3093, U30F3, U301C, U30FC]}; # ~ -
+	key <AC11> {[U3088, U30E8]}; # yo
+	key <BKSL> {[U3093, U30F3, U301C, U30FC]}; # ~ -
 
-    key <LSGT> {[U305F, U30BF]}; # ta
+	key <LSGT> {[U305F, U30BF]}; # ta
 	key <AB01> {[U3061, U30C1, UFF5A, UFF3A]};
 	key <AB02> {[U3064, U30C4, UFF58, UFF38]};
 	key <AB03> {[U3066, U30C6, UFF43, UFF23]};
