@@ -16,40 +16,40 @@ xkb_symbols "basic" {
 	key <AE11> {[U3084, U30E4]}; # ya
 	key <AE12> {[U308F, U30EF]}; # wa
 
-	key <AD01> {[U304B, U30AB, UFF51]}; # ka
-	key <AD02> {[U304D, U30AD, UFF57]};
-	key <AD03> {[U304F, U30AF, UFF45]};
-	key <AD04> {[U3051, U30B1, UFF52]};
-	key <AD05> {[U3053, U30B3, UFF54]};
-	key <AD06> {[U306F, U30CF, UFF59]}; # ha
-	key <AD07> {[U3072, U30D2, UFF55]};
-	key <AD08> {[U3075, U30D5, UFF49]};
-	key <AD09> {[U3078, U30D8, UFF4F]};
-	key <AD10> {[U307B, U30DB, UFF50]};
+	key <AD01> {[U304B, U30AB, UFF51, UFF31]}; # ka
+	key <AD02> {[U304D, U30AD, UFF57, UFF37]};
+	key <AD03> {[U304F, U30AF, UFF45, UFF25]};
+	key <AD04> {[U3051, U30B1, UFF52, UFF32]};
+	key <AD05> {[U3053, U30B3, UFF54, UFF34]};
+	key <AD06> {[U306F, U30CF, UFF59, UFF39]}; # ha
+	key <AD07> {[U3072, U30D2, UFF55, UFF35]};
+	key <AD08> {[U3075, U30D5, UFF49, UFF29]};
+	key <AD09> {[U3078, U30D8, UFF4F, UFF2F]};
+	key <AD10> {[U307B, U30DB, UFF50, UFF30]};
 	key <AD11> {[U3086, U30E6]}; # yu
 	key <AD12> {[U3092, U30F2]}; # wo
 
-	key <AC01> {[U3055, U30B5, UFF41]}; # sa
-	key <AC02> {[U3057, U30B7, UFF53]};
-	key <AC03> {[U3059, U30B9, UFF44]};
-	key <AC04> {[U305B, U30BB, UFF46]};
-	key <AC05> {[U305D, U30BD, UFF47]};
-	key <AC06> {[U307E, U30DE, UFF48]}; # ma
-	key <AC07> {[U307F, U30DF, UFF4A]};
-	key <AC08> {[U3080, U30E0, UFF4B]};
-	key <AC09> {[U3081, U30E1, UFF4C]};
+	key <AC01> {[U3055, U30B5, UFF41, UFF21]}; # sa
+	key <AC02> {[U3057, U30B7, UFF53, UFF33]};
+	key <AC03> {[U3059, U30B9, UFF44, UFF24]};
+	key <AC04> {[U305B, U30BB, UFF46, UFF26]};
+	key <AC05> {[U305D, U30BD, UFF47, UFF27]};
+	key <AC06> {[U307E, U30DE, UFF48, UFF28]}; # ma
+	key <AC07> {[U307F, U30DF, UFF4A, UFF2A]};
+	key <AC08> {[U3080, U30E0, UFF4B, UFF2B]};
+	key <AC09> {[U3081, U30E1, UFF4C, UFF2C]};
 	key <AC10> {[U3082, U30E2, UF0031]};
     key <AC11> {[U3088, U30E8]}; # yo
     key <BKSL> {[U3093, U30F3, U301C, U30FC]}; # ~ -
 
     key <LSGT> {[U305F, U30BF]}; # ta
-	key <AB01> {[U3061, U30C1, UFF5A]};
-	key <AB02> {[U3064, U30C4, UFF58]};
-	key <AB03> {[U3066, U30C6, UFF43]};
-	key <AB04> {[U3068, U30C8, UFF56]};
-	key <AB05> {[U3089, U30E9, UFF42]}; # ra
-	key <AB06> {[U308A, U30EA, UFF4E]};
-	key <AB07> {[U308B, U30EB, UFF4D]};
+	key <AB01> {[U3061, U30C1, UFF5A, UFF3A]};
+	key <AB02> {[U3064, U30C4, UFF58, UFF38]};
+	key <AB03> {[U3066, U30C6, UFF43, UFF23]};
+	key <AB04> {[U3068, U30C8, UFF56, UFF36]};
+	key <AB05> {[U3089, U30E9, UFF42, UFF22]}; # ra
+	key <AB06> {[U308A, U30EA, UFF4E, UFF2E]};
+	key <AB07> {[U308B, U30EB, UFF4D, UFF2D]};
 	key <AB08> {[U308C, U30EC, U3001]}; # ,
 	key <AB09> {[U308D, U30ED, U3002, U2026]}; # 。…
 	key <AB10> {[U309B, U309C, UFF1F, UFF01]}; # ゙゚
