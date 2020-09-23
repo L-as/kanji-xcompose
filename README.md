@@ -13,10 +13,11 @@ Even if it wasn't smart however, clicking e.g. space 20 times in a row isn't opt
 
 ## Set-up
 
-Just pipe in the kanjidic2.xml file and it will spit out a compose file.
-You will also need to use the corresponding XKB layout when attempting
-to compose kanji. To use the XKB layout, simply put the file into ~/.xkb/symbols/
-with a fitting name (e.g. "kanji-xcompose") and switch to that layout.
+Just pipe in the kanjidic2.xml file from https://www.edrdg.org/wiki/index.php/KANJIDIC_Project
+and it will spit out a compose file. You will also need to use the corresponding
+XKB layout when attempting to compose kanji. To use the XKB layout,
+simply put the file into ~/.xkb/symbols/ with a fitting name
+(e.g. "kanji-xcompose") and switch to that layout.
 E.g. with sway: `swaymsg input '*' xkb_layout kanji-xcompose`
 
 ## Writing kana
@@ -36,14 +37,39 @@ Not all non-alphanumeric characters are supported yet.
 
 ## Writing kanji
 
-You start by pressing Caps-Lock, then selecting the first kana
-of the pronunciation of the letter disregarding voicedness, then
-you select the ending of the pronunciation which also chooses voicedness,
-then you choose the number of strokes, and if necessary, which letter
-that fits all these criteria sorted with frequency of use.
+### Step 1
 
-As for selecting the ending, 9 keys are used of each row, with the bottom
-two rows indicating that the beginning of the pronunciation is voiced.
-The endings are then:
-- イ,ウ,キ,ク,チ,ツ,ャ,ャク,ュ
-- ュウ,ュク,ュツ,ュン,ョ,ョウ,ョク,ン,(no ending)
+Press Caps-Lock
+
+### Step 2
+
+Enter the first kana of the first on'yomi reading of the kanji (in
+some arbitrary order decided by kanjidic), DISREGARDING any
+dakuten/voicedness, e.g. さ instead of ざ.
+
+### Step 3
+
+You then specify what the ending of the of the reading is,
+which can be any of the following:
+- (1-9)   |イ  |ウ  |キ  |ク  |チ|ツ  |ャ  |ャク|ュ|
+- (か-へ) |ュウ|ュク|ュツ|ュン|ョ|ョウ|ョク|ン  |(no ending)|
+- (さ-め) |イ  |ウ  |ギ  |グ  |ヂ|ヅ  |ャ  |ャグ|ュ|
+- (た-れ) |ュウ|ュグ|ュヅ|ュン|ョ|ョウ|ョク|ン  |(no ending)|
+
+As you can probably tell, the rows are duplicated once,
+but the duplicate has dakuten where possible.
+In addition, they are sorted alphabetically, so if you
+can remember what endings are valid, then you should
+be able to figure out what key an ending is.
+
+### Step 4
+
+Enter the number of strokes.
+The first row is 1-10, the second 11-20, etc.
+
+### Step 5
+
+If multiple kanji match this criteria, you need to select which
+to use using the numeric keys again, sorted by frequency.
+If there is only one solution, then you do not need to select
+anything here.

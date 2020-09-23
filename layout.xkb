@@ -42,17 +42,17 @@ xkb_symbols "basic" {
 	key <AC11> {[U3088, U30E8]}; # yo
 	key <BKSL> {[U3093, U30F3, U301C]}; # ~
 
-	key <LSGT> {[U305F, U30BF]}; # ta
-	key <AB01> {[U3061, U30C1, UFF5A, UFF3A]};
-	key <AB02> {[U3064, U30C4, UFF58, UFF38]};
-	key <AB03> {[U3066, U30C6, UFF43, UFF23]};
-	key <AB04> {[U3068, U30C8, UFF56, UFF36]};
-	key <AB05> {[U3089, U30E9, UFF42, UFF22]}; # ra
-	key <AB06> {[U308A, U30EA, UFF4E, UFF2E]};
-	key <AB07> {[U308B, U30EB, UFF4D, UFF2D]};
-	key <AB08> {[U308C, U30EC, U3001]}; # ,
-	key <AB09> {[U308D, U30ED, U3002, U2026]}; # 。…
-	key <AB10> {[U309B, U309C, UFF1F, UFF01]}; # ゙゚
+	key <AB01> {[U305F, U30BF, UFF5A, UFF3A]}; # ta
+	key <AB02> {[U3061, U30C1, UFF58, UFF38]};
+	key <AB03> {[U3064, U30C4, UFF43, UFF23]};
+	key <AB04> {[U3066, U30C6, UFF56, UFF36]};
+	key <AB05> {[U3068, U30C8, UFF42, UFF22]};
+	key <AB06> {[U3089, U30E9, UFF4E, UFF2E]}; # ra
+	key <AB07> {[U308A, U30EA, UFF4D, UFF2D]};
+	key <AB08> {[U308B, U30EB]};
+	key <AB09> {[U308C, U30EC, U3001]}; # ,
+	key <AB10> {[U308D, U30ED, U3002, U2026]}; # 。…
+	key <AB11> {[U309B, U309C, UFF1F, UFF01]}; # ゙゚
 
 	key <SPCE> {[U3000]};
 
