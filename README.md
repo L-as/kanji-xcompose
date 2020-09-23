@@ -51,10 +51,18 @@ dakuten/voicedness, e.g. さ instead of ざ.
 
 You then specify what the ending of the of the reading is,
 which can be any of the following:
-- (1-9)   |イ  |ウ  |キ  |ク  |チ|ツ  |ャ  |ャク|ュ|
-- (か-へ) |ュウ|ュク|ュツ|ュン|ョ|ョウ|ョク|ン  |(no ending)|
-- (さ-め) |イ  |ウ  |ギ  |グ  |ヂ|ヅ  |ャ  |ャグ|ュ|
-- (た-れ) |ュウ|ュグ|ュヅ|ュン|ョ|ョウ|ョク|ン  |(no ending)|
+
+|1 - 9|か-へ|さ-め|た-れ|
+|-----|-----|-----|-----|
+|イ   |ュウ |イ   |ュウ |
+|ウ   |ュク |ウ   |ュグ |
+|キ   |ュツ |ギ   |ュヅ |
+|ク   |ュン |グ   |ュン |
+|チ   |ョ   |ヂ   |ョ   |
+|ツ   |ョウ |ヅ   |ョウ |
+|ゃ   |ョク |ャ   |ョク |
+|ゃク |ン   |ャグ |ン   |
+|ゅ   |none |ュ   |none |
 
 As you can probably tell, the rows are duplicated once,
 but the duplicate has dakuten where possible.
