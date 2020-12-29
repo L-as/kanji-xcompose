@@ -55,17 +55,18 @@ which can be any of the following:
 |1 - 9|か-へ|さ-め|た-れ|
 |-----|-----|-----|-----|
 |イ   |ュウ |イ   |ュウ |
-|ウ   |ュク |ウ   |ュグ |
-|キ   |ュツ |ギ   |ュヅ |
-|ク   |ュン |グ   |ュン |
-|チ   |ョ   |ヂ   |ョ   |
-|ツ   |ョウ |ヅ   |ョウ |
-|ゃ   |ョク |ャ   |ョク |
-|ゃク |ン   |ャグ |ン   |
-|ゅ   |none |ュ   |none |
+|ウ   |ュク |ウ   |ュク |
+|キ   |ュツ |キ   |ュツ |
+|ク   |ュン |ク   |ュン |
+|チ   |ョ   |チ   |ョ   |
+|ツ   |ョウ |ツ   |ョウ |
+|ゃ   |ョク |ゃ   |ョク |
+|ゃク |ン   |ゃク |ン   |
+|ゅ   |none |ゅ   |none |
 
 As you can probably tell, the rows are duplicated once,
-but the duplicate has dakuten where possible.
+but the duplicate indicates that the **first** kana is
+voiced, i.e. has dakuten.
 In addition, they are sorted alphabetically, so if you
 can remember what endings are valid, then you should
 be able to figure out what key an ending is.
