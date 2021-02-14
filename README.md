@@ -60,9 +60,9 @@ which can be any of the following:
 |ク   |ュン |ク   |ュン |
 |チ   |ョ   |チ   |ョ   |
 |ツ   |ョウ |ツ   |ョウ |
-|ゃ   |ョク |ゃ   |ョク |
-|ゃク |ン   |ゃク |ン   |
-|ゅ   |none |ゅ   |none |
+|ャ   |ョク |ャ   |ョク |
+|ャク |ン   |ャク |ン   |
+|ュ   |none |ュ   |none |
 
 As you can probably tell, the rows are duplicated once,
 but the duplicate indicates that the **first** kana is
